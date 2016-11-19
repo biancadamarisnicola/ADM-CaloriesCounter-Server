@@ -1,0 +1,26 @@
+{
+  "name": "keep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^2.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.0.1",
+    "nedb-promise": "^2.0.0",
+    "socket.io": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
